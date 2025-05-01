@@ -41,7 +41,7 @@ trainer = config.build()
 # trainer.restore(checkpoint_path)
 
 # Training loop
-for i in range(1000):
+for i in range(3000):
     result = trainer.train()
     print(f"Iteration {i}: reward_mean = {result['episode_reward_mean']}")
 
